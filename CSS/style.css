@@ -1,0 +1,72 @@
+*{ 
+	margin: 0; 
+	padding: 0; 
+}
+.container {
+	margin: 0 auto;
+	width: 70%;
+}
+h4{
+	padding: 20px;
+	color:#215E21;
+}
+#guard1,#guard2{
+	display: inline-block;
+	padding-bottom: 0px;	
+}
+#guard1{
+	padding-left: 100px;
+}
+#guard2{
+	padding-left: 320px;
+}
+label{
+	display: inline-block;
+  	width:96px;
+  	text-align: right;
+}
+input[type=text],input[type=email],textarea{
+    width: 37%;
+    padding: 2px;
+    padding-right:20px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px #000 inset;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+textarea{
+	background: #F5F5F5;
+	height: 75px;
+	overflow-y: scroll;
+	vertical-align: middle;
+	resize:none;
+}	
+input[type=checkbox]{
+	padding: 20px;
+    padding-left:100px;
+    margin-left:100px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px #000 inset;
+}
+#line11{
+	display:inline-block;
+	padding-right:90px;
+}
+#line11 input[name=Allow2]{
+	margin-left:215px
+}
+#line13 input[type=checkbox]{
+	margin-left: 10px;
+	float:left;
+}
+#wrap{
+	float:right;
+}
+#line13 input[type=submit]{
+	width:100px;
+	background-color:#215E21;
+	color:#fff;
+	height: 25px;
+}
